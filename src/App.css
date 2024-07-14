@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar-brand {
+  color: white;
+  font-size: 28px;
+}
+.footer-section {
+  margin-top: 100px;
+  height: 170px;
+  border-top: 1px solid gray;
+  padding-top: 40px;
+}
+.footer-section {
+  height: 100%;
+}
+.first-lvl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.home {
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+}
+.about {
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+}
+.contact {
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  margin-top: 0px;
+}
+.foot-p {
+  margin-left: 6px;
+  margin-top: -4px;
+}
+.svg {
+  width: 25px;
+  height: 20px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.svg2 {
+  width: 27px;
+  height: 23px;
+}
+.second-lvl {
+  margin-top: 25px;
+}
+.policy {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 40px;
+  margin-right: 51px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* SIDEBAR */
+
+#default-sidebar {
+  margin-top: 56px;
+  border-right: 1px solid gray;
+}
+
+/* ROUTES */
+.routes {
+  padding-top: 60px;
+  width: 78%;
+  /* margin: auto; */
+  margin-left: 276px;
+}
+/* CARD-SECTION */
+
+.card-body {
+  background-color: #0d2136;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 2px solid gray;
+  background-color: #1f2937;
+}
+.home1 {
+  height: 120vh;
+  margin-top: 169px;
+}
+/* CARD */
+.card {
+  border: none;
+  box-shadow: 1px 1px 2px gray;
+}
+.card-section {
+  display: flex;
+  gap: 72px;
+  padding-top: 50px;
+}
+
+/* CHAUFFER */
+
+.heading-section {
+  /* margin-left: 100px; */
+  /* width: 1100px; */
+  border-bottom: 1px solid black;
+}
+.ride-h2 {
+  font-size: 42px;
+  font-weight: 400;
+  word-spacing: break-word;
+  width: 500px;
+}
+.fine-para {
+  margin-bottom: 50px;
+  color: #bfa37c;
+}
+
+/* DASHBOARD */
+.dashboard {
+  margin-top: 70px;
+}
+.pic1 {
+  margin-top: 50px;
+}
+
+.ava2 {
+  background-color: #0d2136;
+}
+@media screen and (max-width: 1200px) {
+  .card-section {
+    flex-direction: column;
   }
 }
